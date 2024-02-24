@@ -6,6 +6,19 @@ Request Data:
 2. Now send a JSON file to the service based on the services port and address in the following format: '{ "date": "02/19/24", "amount": 750 }'. Change the date and value to your specific values.
 3. Once the microservice has completed processing the file it will instantly start sending back the file
 
+Example:
+
+#Connect to service
+    try:
+        self._socket.connect((self._address, self._port))
+        print("Socket connected!")
+    except:
+        print("Service not running.")
+        
+#Send JSON(NOTE: This will be called only if the socket successfully connects)
+    testJson = '{ "date": "02/19/24", "amount": 750 }'
+    self._socket.send(data.encode())
+
 
 Recieve Data:
 
