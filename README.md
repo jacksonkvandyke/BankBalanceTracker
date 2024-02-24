@@ -38,4 +38,5 @@ openFile.write(file)
 
 
 NOTE 1: The microservice stores a local CSV file which is edited and sent back to the user.
-NOTE 2: The microservice will continue to run in the background until stopped allowing the user to send as many request as desired to the service
+NOTE 2: The microservice will continue to run in the background until stopped allowing the user to send as many request as desired to the service.
+NOTE 3: I included a screenshot of the README since github does weird things with text wrapping.
