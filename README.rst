@@ -1,4 +1,4 @@
-Bank Balance Tracker README:
+Bank Balance Tracker README:    #NOTE: The microservice UML diagram is a PNG file
 
 Request Data:
 
